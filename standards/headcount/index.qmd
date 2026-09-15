@@ -1,0 +1,15 @@
+---
+title: "Headcount"
+description: "Headcount measurement references."
+toc: false
+listing:
+  contents: "*/index.qmd"
+  type: table
+  fields: [title, status, metric-type]
+  filter-ui: true
+  sort: title
+---
+
+[All standards](../index.qmd)
+
+An illustrative definition establishes the format for future metrics.

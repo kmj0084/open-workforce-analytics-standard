@@ -1,0 +1,26 @@
+---
+title: "Replace with a descriptive title"
+description: "Replace with a one-sentence summary."
+content-type: essay
+author: "Replace with author"
+date: 2026-09-14
+date-modified: 2026-09-14
+draft: true
+categories: [Measurement]
+---
+
+## Main idea
+
+Replace with reviewed content.
+
+## Argument and examples
+
+Replace with reviewed content.
+
+## Implications
+
+Replace with reviewed content.
+
+## References
+
+Replace with reviewed content.

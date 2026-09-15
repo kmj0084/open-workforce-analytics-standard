@@ -1,0 +1,34 @@
+---
+title: "Standards"
+description: "Browse workforce metric definitions by domain, type, and status."
+toc: false
+listing:
+  contents: "**/index.qmd"
+  include:
+    content-type: metric
+  type: table
+  fields: [title, domain, metric-type, status]
+  field-display-names:
+    metric-type: Type
+    domain: Domain
+    status: Status
+  sort: title
+  filter-ui: true
+  sort-ui: true
+  categories: true
+  page-size: 20
+---
+
+Definitions state the population, time basis, unit, calculation, and limitations. Use the category labels to browse a domain, or filter the table by name, domain, type, or status.
+
+**Status:** Draft = proposed; Review = open for structured review; Recommended = accepted through a documented review; Deprecated = retained for historical interpretation. These describe maturity, not publication visibility.
+
+## Domains
+
+- [Headcount](headcount/index.qmd)
+- [Movement](movement/index.qmd)
+- [Talent acquisition](talent-acquisition/index.qmd)
+- [Organization](organization/index.qmd)
+- [Engagement](engagement/index.qmd)
+
+## Metric directory

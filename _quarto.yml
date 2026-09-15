@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "!templates/"
+    - "!docs/"
+website:
+  title: "OWAS"
+  site-url: "https://kmj0084.github.io/open-workforce-analytics-standard/"
+  repo-url: "https://github.com/kmj0084/open-workforce-analytics-standard"
+  repo-branch: main
+  repo-actions: [source, issue]
+  description: "Open Workforce Analytics Standard: workforce measurement definitions, methods, and research."
+  draft-mode: gone
+  page-navigation: true
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  navbar:
+    background: light
+    left:
+      - text: Standards
+        href: standards/index.qmd
+      - research/index.qmd
+      - essays/index.qmd
+      - dashboard/index.qmd
+      - text: Project
+        menu:
+          - about.qmd
+          - methodology.qmd
+          - get-involved.qmd
+  page-footer:
+    left: "Open Workforce Analytics Standard · v0.1"
+    right:
+      - about.qmd
+      - get-involved.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    lang: en
+    smooth-scroll: false
+    code-copy: true
+    link-external-newwindow: false
+    anchor-sections: true
+    respect-user-color-scheme: false
+execute:
+  freeze: auto
+bibliography: references.bib

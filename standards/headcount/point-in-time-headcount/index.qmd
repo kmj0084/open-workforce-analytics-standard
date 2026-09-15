@@ -1,0 +1,79 @@
+---
+title: "Point-in-time headcount"
+description: "Illustrative count of distinct people with an active employment spell at a specified instant."
+content-type: metric
+metric-id: OWAS-HC-001
+domain: Headcount
+metric-type: Stock
+status: Draft
+version: "0.1.0"
+date: 2026-09-14
+date-modified: 2026-09-14
+categories: [Headcount, Stock, Draft]
+draft: false
+---
+
+::: {.metric-meta}
+**ID:** {{< meta metric-id >}} · **Status:** {{< meta status >}} · **Version:** {{< meta version >}}
+
+**Domain:** {{< meta domain >}} · **Type:** {{< meta metric-type >}}
+:::
+
+::: {.callout-note}
+This is an illustrative public draft for testing the reference format. It has not been adopted as a recommended OWAS standard.
+:::
+
+## Definition
+
+Count distinct people with at least one qualifying employment spell active at reference instant *t*. Count each person once within the reporting population.
+
+## Population and unit
+
+Unit: people. The illustrative population includes employees and excludes independent contractors. Document legal entities, worker classes, and leave treatment before using this definition.
+
+## Time basis
+
+Use an inclusive start and exclusive end: `start <= t` and (`end` is missing or `t < end`). State the timezone and whether the source stores dates or timestamps. A missing end means ongoing only when that is the source system's documented convention.
+
+## Calculation
+
+Filter qualifying spells at *t*, then count distinct stable person identifiers. Do not sum assignment rows.
+
+```sql
+SELECT COUNT(DISTINCT person_id) AS headcount
+FROM employment_spells
+WHERE start_at <= :reference_instant
+  AND (end_at IS NULL OR :reference_instant < end_at);
+```
+
+Apply population filters before this query. `:reference_instant` is a conceptual parameter; adapt syntax to the database.
+
+## Required data
+
+| Field | Meaning |
+|---|---|
+| person_id | Stable identifier across qualifying spells |
+| start_at | Inclusive spell start |
+| end_at | Exclusive spell end, or documented ongoing marker |
+| worker_class | Population eligibility |
+| entity_id | Reporting scope |
+
+## Worked example
+
+At 09:00, A has two active assignments, B has one active spell, and C has a spell ending at 09:00. With the boundary rule above, headcount is **2**: A and B.
+
+## Validation
+
+Check missing person IDs, reversed intervals, duplicate spells, and unexpected changes by entity. Reconcile person-level differences against the prior snapshot before interpreting the aggregate.
+
+## Limitations
+
+This is not full-time equivalent capacity or an average over a period. Late corrections can change historical counts. Record both the effective instant and the extraction date for reproducibility.
+
+## Sources and review
+
+Original illustrative example; no external standard is claimed. Open questions include leave eligibility, multi-entity attribution, and date-only termination conventions.
+
+## Change history
+
+- 0.1.0 — Initial illustrative proposal, 2026-09-14.

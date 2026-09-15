@@ -1,0 +1,17 @@
+---
+title: "Dashboard"
+description: "Access and methodology for separately hosted workforce reports."
+---
+
+## Availability
+
+No public report is connected to this v0.1 site yet. The Power BI report will remain hosted separately; this page will provide its access link and context.
+
+## What will accompany a report
+
+- Report title, scope, and intended questions.
+- Observation period and latest successful data refresh, distinct from the page update date.
+- Sources, metric definitions, revision policy, and known limitations.
+- A direct report link, access requirements, and a static summary with descriptive text.
+
+Read the [dashboard methodology](methodology.qmd). An embedded report may be added when suitable for its audience, with a direct link available alongside it.

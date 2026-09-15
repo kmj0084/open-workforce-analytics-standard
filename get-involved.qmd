@@ -1,0 +1,18 @@
+---
+title: "Get involved"
+description: "Propose definitions, report problems, and improve OWAS documentation."
+---
+
+## Useful contributions
+
+Propose a metric, identify an ambiguous population or time boundary, add a worked example, or reproduce an analysis.
+
+## Propose a change
+
+In the source repository, open an issue with the affected page, proposed change, reason, and a small example. Use a pull request for a concrete edit. Discuss interpretation questions in GitHub Discussions when enabled by the maintainers.
+
+Visit the [source repository](https://github.com/kmj0084/open-workforce-analytics-standard), [open an issue](https://github.com/kmj0084/open-workforce-analytics-standard/issues), or [propose a pull request](https://github.com/kmj0084/open-workforce-analytics-standard/pulls). Contribution instructions and reusable templates are included in the repository README.
+
+## Review expectations
+
+Keep proposals focused. Explain whether a change affects historical comparisons. Use synthetic examples instead of personal workforce records.

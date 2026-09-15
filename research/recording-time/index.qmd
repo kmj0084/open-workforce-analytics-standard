@@ -1,0 +1,31 @@
+---
+title: "Record both the effective date and the extraction date"
+description: "A starter methodology note on distinguishing when an event applies from when a dataset was retrieved."
+content-type: research-note
+author: OWAS
+date: 2026-09-14
+date-modified: 2026-09-14
+categories: [Methodology, Temporal data]
+status: Working note
+draft: false
+---
+
+## Question
+
+How should an analysis identify the version of history it used?
+
+## Method
+
+Keep the effective date of each observation separate from the extraction timestamp of its source. If a source supplies release identifiers or revision dates, retain those too.
+
+## Illustrative example
+
+A June employment record retrieved in July can differ from the same June record retrieved in August after a correction. The effective period is unchanged; the available information has changed.
+
+## Reporting convention
+
+Publish the observation period, source release, extraction timestamp, transformation steps, and treatment of revisions alongside each output. Preserve permitted source snapshots or a durable retrieval recipe.
+
+## Limitations and sources
+
+This note proposes a documentation convention. It does not report empirical results. Source-specific revision policies must be documented in each future analysis.

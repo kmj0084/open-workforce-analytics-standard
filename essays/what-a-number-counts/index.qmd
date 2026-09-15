@@ -1,0 +1,18 @@
+---
+title: "Start with what a number counts"
+description: "Why a workforce measure needs a population and a time boundary before it needs a chart."
+content-type: essay
+author: OWAS
+date: 2026-09-14
+date-modified: 2026-09-14
+categories: [Measurement]
+draft: false
+---
+
+A headcount can refer to people, contracts, or assignments. Each can be useful, but they answer different questions. A chart label alone rarely tells readers which object was counted.
+
+The first task is to state the population and unit. The next is to explain time: a snapshot at one instant behaves differently from a count of everyone present during a month.
+
+Only then can a reader interpret change. A rising series may reflect more people, a broader reporting boundary, or corrected source records. Good documentation gives readers a way to distinguish those explanations.
+
+The [illustrative headcount definition](../../standards/headcount/point-in-time-headcount/index.qmd) makes these choices explicit. This essay explains the motivation; the reference page records the calculation contract.

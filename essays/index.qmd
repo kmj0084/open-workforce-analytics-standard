@@ -1,0 +1,16 @@
+---
+title: "Essays"
+description: "Conceptual writing about workforce measurement and organizations."
+toc: false
+listing:
+  contents: "*/index.qmd"
+  type: default
+  fields: [date, title, description, categories]
+  sort: "date desc"
+  categories: true
+  filter-ui: true
+  sort-ui: true
+  page-size: 12
+---
+
+Essays explore ideas and interpretation. They do not establish metric standards.

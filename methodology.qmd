@@ -1,0 +1,20 @@
+---
+title: "Methodology"
+description: "Shared principles for definitions and reproducible workforce analysis."
+---
+
+## Definition contract
+
+Every metric should state its unit, population, inclusion and exclusion rules, time boundary, formula, required data, worked example, validation, and limitations.
+
+## Temporal data
+
+Distinguish effective time from extraction time. Specify interval boundaries, timezones, and treatment of revisions. Preserve stable person identifiers without exposing personal records in public outputs.
+
+## Reproducibility
+
+Research should identify source releases, retrieval dates, transformations, software dependencies, and limitations. Keep analysis code and supporting assets beside the research note when practical.
+
+## Review and change
+
+Draft, Review, Recommended, and Deprecated describe metric maturity. A transition to Recommended requires a recorded review decision; v0.1 establishes no automatic approval mechanism. Changes to population or time rules require a version update and an explanation of comparability.

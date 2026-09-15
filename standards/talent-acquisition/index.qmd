@@ -1,0 +1,18 @@
+---
+title: "Talent acquisition"
+description: "Talent acquisition measurement references."
+toc: false
+listing:
+  contents: "*/index.qmd"
+  type: table
+  fields: [title, status, metric-type]
+  field-display-names:
+    status: Status
+    metric-type: Type
+  filter-ui: true
+  sort: title
+---
+
+[All standards](../index.qmd)
+
+Published definitions appear below as they become available.

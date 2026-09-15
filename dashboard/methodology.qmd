@@ -1,0 +1,12 @@
+---
+title: "Dashboard methodology"
+description: "Documentation requirements for future dashboard releases."
+---
+
+No dashboard dataset or refresh schedule has been published yet.
+
+Before connecting a report, document its source releases, covered population, geographic scope, observation windows, seasonal adjustment where relevant, transformations, and missing-data treatment. Link each measure to its reference definition.
+
+Record the last successful data refresh and explain revision behavior. Provide definitions and limitations outside Power BI so readers can access the context independently of the report.
+
+[Return to dashboard](index.qmd)

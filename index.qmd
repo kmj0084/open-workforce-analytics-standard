@@ -1,0 +1,41 @@
+---
+title: "Open Workforce Analytics Standard"
+description: "A reference project for clearer, reproducible workforce measurement."
+toc: false
+---
+
+::: {.hero}
+Workforce measurement, made explicit.
+
+OWAS is an open reference project for metric definitions, temporal data, analytical methods, and research. Its aim is to make workforce measures easier to understand, reproduce, and compare.
+
+[Browse the standards](standards/index.qmd){.btn .btn-primary}
+[Read the methodology](methodology.qmd){.btn .btn-outline-secondary}
+:::
+
+::: {.section-grid}
+::: {.section-card}
+## [Standards](standards/index.qmd)
+Definitions with explicit populations, time boundaries, calculation rules, and review status.
+:::
+::: {.section-card}
+## [Research](research/index.qmd)
+Labor-market analysis, PA Pulse, public-data research, and reproducible methodology notes.
+:::
+::: {.section-card}
+## [Essays](essays/index.qmd)
+Short writing on measurement, organizations, statistics, and changing work.
+:::
+::: {.section-card}
+## [Dashboard](dashboard/index.qmd)
+Context and methods for separately hosted workforce and labor-market reports.
+:::
+:::
+
+## Start with the assumptions
+
+A number becomes useful when readers can identify who is counted, when they are counted, and which records support the result. [How to read a metric](standards/headcount/point-in-time-headcount/index.qmd) illustrates that approach.
+
+## Project stage
+
+This v0.1 site establishes a publishing structure. The initial metric is an illustrative public draft, not an adopted standard. [Contribute a correction or proposal](get-involved.qmd).

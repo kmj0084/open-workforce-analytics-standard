@@ -1,0 +1,16 @@
+---
+title: "About OWAS"
+description: "Purpose and current stage of the Open Workforce Analytics Standard."
+---
+
+OWAS is an open reference project around workforce measurement, people analytics, metric definitions, temporal data, data architecture, and related research.
+
+The project aims to make assumptions visible and calculations reproducible. Its name describes an ambition; the v0.1 examples do not imply endorsement by a standards body or an established governance process.
+
+## Scope
+
+Standards record definitions. Research documents analysis. Essays explore interpretation. The dashboard provides access to separately hosted reports.
+
+## Current stage
+
+The initial release establishes the website and contribution structure. Authorship, stewardship, and licensing decisions should be documented as the project develops.

@@ -1,0 +1,16 @@
+---
+title: "Research"
+description: "Research notes, public-data analysis, PA Pulse, and methods."
+toc: false
+listing:
+  contents: "*/index.qmd"
+  type: default
+  fields: [date, title, description, categories]
+  sort: "date desc"
+  categories: true
+  filter-ui: true
+  sort-ui: true
+  page-size: 12
+---
+
+Research connects analytical claims to sources, methods, and reproducible outputs. The opening note describes the reporting convention; it contains no empirical findings.

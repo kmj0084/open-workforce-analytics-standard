@@ -1,0 +1,13 @@
+---
+title: "Unpublished workflow example"
+description: "Draft exclusion fixture."
+content-type: research-note
+date: 2026-09-14
+date-modified: 2026-09-14
+categories: [Methodology]
+draft: true
+---
+
+OWAS-DRAFT-SENTINEL-7C92
+
+This deliberately unfinished note tests draft exclusion. Delete it when replacing the starter examples.
